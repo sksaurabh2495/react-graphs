@@ -1,0 +1,103 @@
+body{
+  background-color: #F5F5F5;
+}
+.App{
+  margin-top: 2em;
+}
+.graph-card{
+  margin-bottom: 2em;
+}
+.top-card{
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px -1px rgba(0,0,0,0.55);
+}
+.top-card .img-box{
+  text-align: right;
+}
+.top-card .img-box .card-icon{
+  width: 50px;
+  margin-bottom: 10px;
+}
+.top-card .card-title{
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #505050;
+}
+.top-card .chart1-percent{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.top-card .bar-empty{
+  background-color: #F5F5F5;
+  border-radius: 24px;
+  
+}
+.top-card .bar-filled{
+  height: 14px;
+  border-radius: 24px;
+}
+.container2 .title,
+.container3 .title{
+  margin-bottom: 1em;
+}
+.container2 .card,
+.container3 .card3{
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px -1px rgba(0,0,0,0.55);
+}
+.container2 .card .bar-tags{
+  display: flex;
+}
+.container2 .card .bar-tags .tag1{
+  margin-right: auto;
+}
+.container2 .card .bar-tags .tag2{
+  font-weight: 500;
+}
+.container2 .card .bar-empty{
+  background-color: #F5F5F5;
+  margin: 24px 0px;
+}
+.container2 .card .bar-filled{
+  height: 14px;
+}
+.container3 .card3{
+  display: flex;
+}
+.container3 .card3 .vertical-bar.graph-axis{
+  text-align: center;
+}
+.container3 .card3 .vertical-bar.graph-axis div{
+  margin-top: 36px;
+}
+.container3 .card3 .vertical-bar{
+  height: 258px;
+  width: 30%;
+}
+.container3 .card3 .vertical-bar:first-child{
+  width: 10%;
+}
+.container3 .card3 .vertical-bar .vertical-text{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 6px;
+}
+.container3 .card3 .vertical-bar .bar-empty{
+  background-color: #F5F5F5;
+  height: 90%;
+  width: inherit;
+  margin: auto;
+  transform: rotateX(180deg);
+}
+.container3 .card3 .vertical-bar .bar-filled .bar-text{
+  transform: rotateX(180deg);
+  position: absolute;
+  margin-bottom: -22px;
+  text-align: center;
+  width: 100%;
+}
